@@ -243,8 +243,9 @@ function App() {
                       <h3>{item.degree}</h3>
                       <p>{item.period}</p>
                     </div>
-                    <p className="company">{item.institution}</p>
-                    <p className="company">{item.location}</p>
+                    <p className="company">
+                      {item.institution} | {item.location}
+                    </p>
                   </li>
                 ))}
               </ul>

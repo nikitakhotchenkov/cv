@@ -417,14 +417,14 @@ h3 {
     background: #fff !important;
     print-color-adjust: exact;
     -webkit-print-color-adjust: exact;
-    font-size: 11.3pt;
-    line-height: 1.24;
+    font-size: 10.4pt;
+    line-height: 1.18;
   }
 
   .page-shell,
   .cv-page {
     padding: 0;
-    gap: 0.42rem;
+    gap: 0.3rem;
   }
 
   .shape-overlay,
@@ -441,7 +441,7 @@ h3 {
     border: 1px solid var(--card-border);
     backdrop-filter: none;
     box-shadow: none;
-    padding: 0.62rem 0.7rem;
+    padding: 0.5rem 0.58rem;
     break-inside: avoid;
   }
 
@@ -465,23 +465,23 @@ h3 {
   }
 
   h2 {
-    margin-bottom: 0.3rem;
-    font-size: 9.2pt;
+    margin-bottom: 0.2rem;
+    font-size: 8.5pt;
     letter-spacing: 0.03em;
   }
 
   h3 {
-    font-size: 9.1pt;
+    font-size: 8.4pt;
   }
 
   .role {
-    font-size: 9.2pt;
+    font-size: 8.4pt;
   }
 
   .location,
   .timeline-head p,
   .simple-list li span {
-    font-size: 8.5pt;
+    font-size: 7.7pt;
   }
 
   .summary p,
@@ -489,19 +489,19 @@ h3 {
   .simple-list li a,
   .company,
   .projects-list p {
-    font-size: 8.95pt;
-    line-height: 1.26;
+    font-size: 8.15pt;
+    line-height: 1.2;
   }
 
   .soft-skill-list strong,
   .chip-row li {
-    font-size: 8.7pt;
-    line-height: 1.24;
+    font-size: 7.7pt;
+    line-height: 1.2;
   }
 
   .chip-row li {
     padding: 0.12rem 0.34rem;
-    font-size: 8.15pt;
+    font-size: 7.35pt;
     line-height: 1.2;
   }
 
@@ -512,7 +512,7 @@ h3 {
   .left-col,
   .right-col,
   .cv-grid {
-    gap: 0.42rem;
+    gap: 0.3rem;
   }
 
   .cv-grid {
@@ -522,11 +522,11 @@ h3 {
   .timeline article,
   .projects-list li,
   .education-list li {
-    padding-bottom: 0.34rem;
+    padding-bottom: 0.24rem;
   }
 
   .timeline ul {
-    gap: 0.18rem;
+    gap: 0.12rem;
   }
 
   .timeline li {
