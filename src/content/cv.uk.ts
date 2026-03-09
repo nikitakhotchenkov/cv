@@ -14,6 +14,7 @@ export const cvUk: CVDocument = {
     technologies: 'Технології',
     experience: 'Досвід роботи',
     projects: 'Проєкти',
+    education: 'Освіта',
     softSkills: 'Мʼякі навички',
     languages: 'Мови',
   },
@@ -116,6 +117,20 @@ export const cvUk: CVDocument = {
       title: 'Інтеграції з національними програмами',
       summary:
         'Впровадив безпечні backend-інтеграції для національних ініціатив із обробкою великих масивів отримувачів і масштабною логістичною координацією.',
+    },
+  ],
+  education: [
+    {
+      degree: 'Бакалавр міжнародних економічних відносин',
+      institution: 'Інститут міжнародних відносин (ІМВ), Київський національний університет імені Тараса Шевченка',
+      location: 'Київ, Україна',
+      period: '2009-2013',
+    },
+    {
+      degree: 'MBA, Global Banking and Finance',
+      institution: 'European University Business School',
+      location: 'Женева, Швейцарія',
+      period: '2013-2015',
     },
   ],
   softSkills: [

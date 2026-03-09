@@ -16,6 +16,7 @@ export interface SectionLabels {
   technologies: string;
   experience: string;
   projects: string;
+  education: string;
   softSkills: string;
   languages: string;
 }
@@ -50,6 +51,13 @@ export interface ProjectEntry {
   summary: string;
 }
 
+export interface EducationEntry {
+  degree: string;
+  institution: string;
+  location: string;
+  period: string;
+}
+
 export interface CVProfile {
   fullName: string;
   title: string;
@@ -66,6 +74,7 @@ export interface CVDocument {
   technologies: SkillGroup[];
   experience: ExperienceEntry[];
   projects: ProjectEntry[];
+  education: EducationEntry[];
   softSkills: string[];
   languages: LanguageEntry[];
 }

@@ -206,7 +206,8 @@ h3 {
 .pill-list,
 .chip-row,
 .timeline ul,
-.projects-list {
+.projects-list,
+.education-list {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -281,19 +282,22 @@ h3 {
 }
 
 .timeline,
-.projects-list {
+.projects-list,
+.education-list {
   display: grid;
   gap: 0.6rem;
 }
 
 .timeline article,
-.projects-list li {
+.projects-list li,
+.education-list li {
   padding-bottom: 0.5rem;
   border-bottom: 1px dashed var(--line);
 }
 
 .timeline article:last-child,
-.projects-list li:last-child {
+.projects-list li:last-child,
+.education-list li:last-child {
   padding-bottom: 0;
   border-bottom: 0;
 }
@@ -503,6 +507,7 @@ h3 {
 
   .timeline,
   .projects-list,
+  .education-list,
   .groups,
   .left-col,
   .right-col,
@@ -515,7 +520,8 @@ h3 {
   }
 
   .timeline article,
-  .projects-list li {
+  .projects-list li,
+  .education-list li {
     padding-bottom: 0.34rem;
   }
 

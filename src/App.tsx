@@ -233,6 +233,22 @@ function App() {
                 ))}
               </ul>
             </section>
+
+            <section className="card animate-rise delay-4">
+              <h2>{cv.labels.education}</h2>
+              <ul className="education-list">
+                {cv.education.map((item) => (
+                  <li key={`${item.degree}-${item.period}`}>
+                    <div className="timeline-head">
+                      <h3>{item.degree}</h3>
+                      <p>{item.period}</p>
+                    </div>
+                    <p className="company">{item.institution}</p>
+                    <p className="company">{item.location}</p>
+                  </li>
+                ))}
+              </ul>
+            </section>
           </div>
         </div>
       </article>

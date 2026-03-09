@@ -14,6 +14,7 @@ export const cvEn: CVDocument = {
     technologies: 'Technologies',
     experience: 'Work Experience',
     projects: 'Projects',
+    education: 'Education',
     softSkills: 'Soft Skills',
     languages: 'Languages',
   },
@@ -116,6 +117,20 @@ export const cvEn: CVDocument = {
       title: 'National Program Integrations',
       summary:
         'Delivered secure backend integrations for national initiatives, handling high-volume recipient data and large-scale logistics coordination.',
+    },
+  ],
+  education: [
+    {
+      degree: 'Bachelor Degree in International Economic Relations',
+      institution: 'Institute of International Relations (IIR), Taras Shevchenko State University',
+      location: 'Kyiv, Ukraine',
+      period: '2009-2013',
+    },
+    {
+      degree: 'MBA, Global Banking and Finance',
+      institution: 'European University Business School',
+      location: 'Geneva, Switzerland',
+      period: '2013-2015',
     },
   ],
   softSkills: ['Analytical', 'Collaborative', 'Solution-driven', 'Business-minded', 'Supportive team mentor'],
