@@ -35,8 +35,8 @@ export const cvEn: CVDocument = {
     },
     {
       label: 'LinkedIn',
-      value: 'nikita-khotchenkov-12477599',
-      href: 'https://linkedin.com/in/nikita-khotchenkov-12477599',
+      value: 'nikita-khotchenkov',
+      href: 'https://linkedin.com/in/nikita-khotchenkov',
     },
     {
       label: 'GitHub',
