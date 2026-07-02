@@ -20,11 +20,11 @@ export const cvEn: CVDocument = {
   },
   profile: {
     fullName: 'Nikita Khotchenkov',
-    title: 'Backend Developer (Python / JavaScript / Java)',
+    title: 'Backend / Full-stack Developer (Python / React / TypeScript)',
     location: 'Kyiv, Ukraine',
     photoAlt: 'Nikita Khotchenkov profile photo',
     summary:
-      'Backend developer focused on ERP-integrated APIs, fiscalization services, and event-driven platforms with production delivery on Linux server infrastructure.',
+      'Backend and full-stack developer building ERP-integrated, event-driven, and financial analytics systems with Python/Django, React/TypeScript, PostgreSQL, and production Linux infrastructure.',
   },
   contacts: [
     { label: 'Phone', value: '+38 066 202 98 58', href: 'tel:+380662029858' },
@@ -46,29 +46,40 @@ export const cvEn: CVDocument = {
   ],
   technologies: [
     {
-      title: 'Programming & Frameworks',
-      items: ['Python 3', 'Java', 'FastAPI', 'Flask', 'Django', 'JavaScript', 'Frappe'],
+      title: 'Backend',
+      items: ['Python 3', 'Java', 'Django / DRF', 'FastAPI', 'Flask', 'Frappe'],
     },
     {
-      title: 'Databases & Storage',
-      items: ['PostgreSQL / TimeScaleDB', 'MySQL / MariaDB', 'SQLite', 'Oracle', 'MongoDB', 'Redis'],
+      title: 'Frontend',
+      items: ['React', 'TypeScript', 'JavaScript', 'Vite', 'Tailwind CSS', 'Apache ECharts'],
     },
     {
-      title: 'APIs & Integrations',
-      items: ['REST API', 'WebSocket API', 'gRPC', 'IT-Enterprise ERP API', 'Software cash register (PRRO) API'],
-    },
-    {
-      title: 'Async, Messaging & Infrastructure',
+      title: 'Data & Storage',
       items: [
+        'PostgreSQL / TimescaleDB',
+        'MySQL / MariaDB',
+        'Oracle',
+        'MongoDB',
+        'Redis',
+        'SQL',
+        'pandas',
+        'Excel / ETL',
+        'openpyxl / XlsxWriter',
+      ],
+    },
+    {
+      title: 'APIs & Infrastructure',
+      items: [
+        'REST API',
+        'WebSocket API',
+        'gRPC',
         'Kafka',
         'Celery',
         'RabbitMQ',
         'Linux',
-        'Nginx (reverse proxy/load balancing)',
+        'Nginx',
         'Docker',
-        'Supervisor/systemd',
-        'CI/CD pipelines',
-        'VPS administration',
+        'CI/CD',
       ],
     },
   ],
@@ -114,9 +125,9 @@ export const cvEn: CVDocument = {
         'Designed WMS and pickup/drop-off management services to automate inventory accounting, cargo lifecycle tracking, and customer verification workflows.',
     },
     {
-      title: 'National Program Integrations',
+      title: 'Reportarium — Financial Reporting & Analytics',
       summary:
-        'Delivered secure backend integrations for national initiatives, handling high-volume recipient data and large-scale logistics coordination.',
+        'Built a full-stack platform for PJSC Ukrnafta that imports, validates, normalizes, and versions evolving Excel financial reports, with interactive ECharts dashboards for cash flow, receivables, promissory notes, and inventory.',
     },
   ],
   education: [

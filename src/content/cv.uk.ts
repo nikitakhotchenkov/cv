@@ -20,11 +20,11 @@ export const cvUk: CVDocument = {
   },
   profile: {
     fullName: 'Нікіта Хотченков',
-    title: 'Backend Developer (Python / JavaScript / Java)',
+    title: 'Backend / Full-stack Developer (Python / React / TypeScript)',
     location: 'Київ, Україна',
     photoAlt: 'Фото профілю Нікіти Хотченкова',
     summary:
-      'Backend-розробник із фокусом на ERP-інтегровані API, сервіси фіскалізації та event-driven платформи з продакшн-доставкою на Linux-інфраструктурі.',
+      'Backend і full-stack розробник ERP-інтегрованих, event-driven та фінансово-аналітичних систем на Python/Django, React/TypeScript і PostgreSQL із розгортанням на Linux-інфраструктурі.',
   },
   contacts: [
     { label: 'Телефон', value: '+38 066 202 98 58', href: 'tel:+380662029858' },
@@ -46,29 +46,40 @@ export const cvUk: CVDocument = {
   ],
   technologies: [
     {
-      title: 'Мови та фреймворки',
-      items: ['Python 3', 'Java', 'FastAPI', 'Flask', 'Django', 'JavaScript', 'Frappe'],
+      title: 'Backend',
+      items: ['Python 3', 'Java', 'Django / DRF', 'FastAPI', 'Flask', 'Frappe'],
     },
     {
-      title: 'Бази даних та сховища',
-      items: ['PostgreSQL / TimeScaleDB', 'MySQL / MariaDB', 'SQLite', 'Oracle', 'MongoDB', 'Redis'],
+      title: 'Frontend',
+      items: ['React', 'TypeScript', 'JavaScript', 'Vite', 'Tailwind CSS', 'Apache ECharts'],
     },
     {
-      title: 'API та інтеграції',
-      items: ['REST API', 'WebSocket API', 'gRPC', 'API ERP IT-Enterprise', 'API програмного РРО (PRRO)'],
-    },
-    {
-      title: 'Асинхронність, messaging та інфраструктура',
+      title: 'Дані та сховища',
       items: [
+        'PostgreSQL / TimescaleDB',
+        'MySQL / MariaDB',
+        'Oracle',
+        'MongoDB',
+        'Redis',
+        'SQL',
+        'pandas',
+        'Excel / ETL',
+        'openpyxl / XlsxWriter',
+      ],
+    },
+    {
+      title: 'API та інфраструктура',
+      items: [
+        'REST API',
+        'WebSocket API',
+        'gRPC',
         'Kafka',
         'Celery',
         'RabbitMQ',
         'Linux',
-        'Nginx (reverse proxy/load balancing)',
+        'Nginx',
         'Docker',
-        'Supervisor/systemd',
-        'CI/CD pipelines',
-        'VPS-адміністрування',
+        'CI/CD',
       ],
     },
   ],
@@ -114,9 +125,9 @@ export const cvUk: CVDocument = {
         'Розробив WMS і сервіси для пунктів видачі/прийому, що автоматизують облік запасів, керування життєвим циклом вантажів і верифікацію клієнтів.',
     },
     {
-      title: 'Інтеграції з національними програмами',
+      title: 'Reportarium — фінансова звітність та аналітика',
       summary:
-        'Впровадив безпечні backend-інтеграції для національних ініціатив із обробкою великих масивів отримувачів і масштабною логістичною координацією.',
+        'Розробив для ПАТ «Укрнафта» full-stack платформу, що імпортує, валідує, нормалізує та версіонує фінансові Excel-звіти, з інтерактивними ECharts-дашбордами для cash flow, дебіторської заборгованості, векселів і запасів.',
     },
   ],
   education: [
