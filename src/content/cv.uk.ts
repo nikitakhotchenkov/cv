@@ -47,11 +47,11 @@ export const cvUk: CVDocument = {
   technologies: [
     {
       title: 'Backend',
-      items: ['Python 3', 'Java', 'Django / DRF', 'FastAPI', 'Flask', 'Frappe'],
+      items: ['Python 3', 'Java', 'C#', 'Django / DRF', 'FastAPI', 'Flask', 'Frappe'],
     },
     {
       title: 'Frontend',
-      items: ['React', 'TypeScript', 'JavaScript', 'Vite', 'Tailwind CSS', 'Apache ECharts'],
+      items: ['React', 'Flutter', 'Dart', 'TypeScript', 'JavaScript', 'Vite', 'Tailwind CSS', 'Apache ECharts'],
     },
     {
       title: 'Дані та сховища',
@@ -60,6 +60,7 @@ export const cvUk: CVDocument = {
         'MySQL / MariaDB',
         'Oracle',
         'MongoDB',
+        'Firebase',
         'Redis',
         'SQL',
         'pandas',
